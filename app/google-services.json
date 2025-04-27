@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "313589578720",
+    "project_id": "real-b117b",
+    "storage_bucket": "real-b117b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313589578720:android:c5d446ce02a0d348dfc985",
+        "android_client_info": {
+          "package_name": "com.example.roomeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313589578720-83m3rq13hd8vs3vtb78u4egsp51dru2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB9Ou7tReLS4GEER6CqGj2_vr2533lYaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313589578720-83m3rq13hd8vs3vtb78u4egsp51dru2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

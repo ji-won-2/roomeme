@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doro_panda"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".PandaActivity">
+
+    <EditText
+        android:id="@+id/postEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="86dp"
+        android:layout_marginBottom="8dp"
+        android:hint="게시글 작성"
+        android:imeOptions="actionDone"
+        android:inputType="textCapSentences"
+        android:maxLines="3" />
+
+
+    <Button
+        android:id="@+id/postButton"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_below="@id/postEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right"
+        android:layout_marginStart="303dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="538dp"
+        android:layout_marginEnd="18dp"
+        android:background="#00ff0000"
+        android:gravity="center"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ScrollView
+        android:layout_width="383dp"
+        android:layout_height="285dp"
+        android:layout_above="@android:id/navigationBarBackground"
+        android:layout_below="@id/postButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-452dp">
+
+        <TextView
+            android:id="@+id/postsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+    </ScrollView>
+
+</RelativeLayout>
